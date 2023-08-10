@@ -33,19 +33,26 @@ body {
     display: flex;
     align-items: center;
     align-content: center;
+    :hover {
+        background-color: #fa5254;
+        transition: 0.4s ease;
+}
 }
 
 .mainMenuli {
     background-color: #302E33;
+    color: white;
     display: flex;
     width: 290px;
     height: 125px;
-    font-family: Arial, Helvetica, sans-serif 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     border-right: 0.2px solid rgb(121, 113, 113);
-    z-index: 1;
+    z-index: 1000;
+      
 }
 
 #accueil {
@@ -69,10 +76,44 @@ body {
     display: flex;
     max-width: 100%;
     justify-content: space-evenly;
-    padding: 80px 50px 300px;
+    padding: 80px 50px 300px 120px;
 }
 
 .text1 {
     font-weight: 100;
     font-size: 16px;
+}
+
+#titreR {
+    font-family: op;
+}
+
+.footer {
+    background-color: #302E33;
+    color: white;
+    display: flex;
+    font-size: 14px;
+    padding: 0 300px 0 220px;
+    justify-content: space-evenly;
+}
+
+.titreFooter {
+    color: #fa5254;
+}
+
+.cg{
+    background-color: #302E33;
+    color: rgb(200, 194, 194);
+    height: 90px;
+    font-size: 14px;
+    padding: 230px 340px 50px 360px;
+}
+
+.mainMenuAbsolute {
+    position: sticky;
+    width: 100%;
+    background-color: #302E33;
+    top: 0;
+    padding: auto;
+    z-index: 1000;
 }

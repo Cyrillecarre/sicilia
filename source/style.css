@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerTop {
+    padding-top: 110px;
+}
+
+.containerLogo {
+    width: 900px;
+    height: 200px;
+    padding-left: 350px;
+    padding-bottom: 100PX;
+}
+
+.logo img {
+    margin: auto;
+    max-width: 780px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    color: #fa5254;
+    font-size: 20px;
+    padding-left: 360px;
+    justify-content: start;
+}
+
+.mainMenu {
+    color: white;
+    padding-left: 360px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.mainMenuli {
+    background-color: #302E33;
+    display: flex;
+    width: 290px;
+    height: 125px;
+    font-family: Arial, Helvetica, sans-serif 16px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-right: 0.2px solid rgb(121, 113, 113);
+    z-index: 1;
+}
+
+#accueil {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: #fa5254;
+}
+
+#contactez-nous {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.imageFond {
+    max-width: 100%;
+    height: auto;
+    margin-top: -80px;
+}
+
+.textdubas {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+    padding: 80px 50px 300px;
+}
+
+.text1 {
+    font-weight: 100;
+    font-size: 16px;
+}
